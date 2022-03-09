@@ -1,0 +1,73 @@
+body {
+    width: 800px;
+    margin: auto;
+}
+
+.game {
+    background-color: beige;
+    border: solid black 1px;
+}
+
+.interface {
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+}
+.buttons {
+    display: flex;
+    margin-top: 30px;
+}
+
+button {
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    border-radius: 10px;
+    border: 4px double black;
+    color: black;
+    text-align: center;
+    margin: 2%;
+}
+
+#score {
+    text-align: center;
+}
+
+.inactive-button { 
+    background-color: darkgray;
+}
+.grid {
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    border: solid black 1px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: cornflowerblue;
+}
+
+.user {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color:crimson;
+}
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color:darkslateblue;
+}
+
+#score {
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 35px;
+}
