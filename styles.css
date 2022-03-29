@@ -3,11 +3,6 @@ body {
     margin: auto;
 }
 
-.game {
-    background-color: beige;
-    border: solid black 1px;
-}
-
 .interface {
     width: 400px;
     margin: auto;
